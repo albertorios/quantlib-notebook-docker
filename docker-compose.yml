@@ -1,0 +1,8 @@
+version: '2'
+services:
+  qlibnotebook:
+    build: ./qlibnotebook
+    ports:
+     - "8888:8888"
+    volumes:
+     - ./qlibnotebook/notebooks:/notebooks
